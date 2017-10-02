@@ -64,7 +64,7 @@ if (isset($_POST['submit'])) {
 
     <div class="tweet">
         <div class="my_tweet">
-            <form action="getstudentinfo.php" method="post">
+            <form action="twitterClone.php" method="post">
                 <input type="text" name="twitter_post" maxlength="140" placeholder="What's happening?" value=""/>
                 <p>
                     <input type="submit" name="submit" value="Send"/>
